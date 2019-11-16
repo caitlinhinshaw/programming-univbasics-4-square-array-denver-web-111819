@@ -3,8 +3,8 @@ def square_array(array)
   index = 0
 
   while index < array.length do
-    array_squared << ((array[index])**2)
-    index += 1
+    array_squared << array[index]**2
+    index++
   end
 
   array_squared
